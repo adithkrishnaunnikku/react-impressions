@@ -1,0 +1,14 @@
+.workspace 
+"node_modules/" 
+node_modules/
+dist/
+build/
+.vercel/
+.next/
+.nuxt/
+.cache/
+.turbo/
+coverage/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
