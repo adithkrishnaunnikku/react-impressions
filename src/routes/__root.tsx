@@ -74,18 +74,18 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-    ],
+meta: [
+  { charSet: "utf-8" },
+  { name: "viewport", content: "width=device-width, initial-scale=1" },
+  { title: "Impressions Wedding Cards" },
+  { name: "description", content: "Bespoke wedding invitations crafted by John & Adith" },
+  { name: "author", content: "John & Adith" },
+  { property: "og:title", content: "Impressions Wedding Cards — Bespoke Luxury Invitations" },
+  { property: "og:description", content: "Heirloom paper, hand‑set type, and wax‑sealed details for timeless celebrations." },
+  { property: "og:type", content: "website" },
+  { name: "twitter:card", content: "summary" },
+  { name: "twitter:site", content: "@ImpressionsAtelier" },
+],
     links: [
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
